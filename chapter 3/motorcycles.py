@@ -21,3 +21,13 @@ print(motorcycles)
 popped_motorcycle = motorcycles.pop()
 print(motorcycles)
 print(popped_motorcycle)
+
+# 从指定位置pop
+popped_motorcycle = motorcycles.pop(1)
+print(motorcycles)
+print(popped_motorcycle)
+
+# 删除指定值,remove只会删除第一个搜索到的值
+motorcycles = ['honda', 'yamaha', 'suzuki','honda']
+motorcycles.remove('honda')
+print(motorcycles)
