@@ -1,4 +1,4 @@
-cars = ['audi', 'bmw', 'subaru', 'toyota']
+cars = ['audi', 'subaru', 'bmw','toyota']
 
 for car in cars:
   if car == 'bmw':
