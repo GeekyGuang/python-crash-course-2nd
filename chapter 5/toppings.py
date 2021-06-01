@@ -1,6 +1,6 @@
 requested_toppings = []
 
 if requested_toppings:
-    print('Y')
+    print('yes')
 else:
-    print('N')
+    print('No')
