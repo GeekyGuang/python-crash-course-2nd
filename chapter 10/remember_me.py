@@ -22,7 +22,8 @@ def get_new_username():
 def greet_user():
     """Greet the user by name."""
     username = get_stored_username()
-    if username:
+    check_user = input(f"Are you {username}?(y/n) ")
+    if check_user == 'y':
         print(f"Welcome back, {username}")
     else:
         username = get_new_username()
