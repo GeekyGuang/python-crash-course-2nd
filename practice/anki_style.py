@@ -4,7 +4,7 @@ try:
     with open('esl.txt', encoding="utf-8") as f:
 	    contents = f.read()
 except FileNotFoundError:
-	print('Error: esl.txt文件不存在')
+	print('Error: esl.txt文件不存在!')
 else:
 	contents = re.sub(r'^(.*?) – ', r'<span>\1</span>\t', contents)
 	contents = re.sub(r'(?<=\n)(.*?) – ', r'<span>\1</span>\t', contents)
